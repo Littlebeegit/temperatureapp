@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_notification_uiRoute</name>
+        <page display_value="">7d653d67c08030107fad2f4dbfde4eeb</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 05:03:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>31653d6717803010c77167787a7edaec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_notification_uiRoute</sys_name>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_update_name>sys_ux_page_property_31653d6717803010c77167787a7edaec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-17 05:03:36</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_638084_tempera_0.7d653d67c08030107fad2f4dbfde4eeb.root.chrome_notification_uiRoute</unique_name>
+        <value>cb1af195872023002941b53046cb0b4e</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</application>
+        <file_path/>
+        <instance_id>35e9d45ddb17c49452dd2f17d4961944</instance_id>
+        <instance_name>dev101794</instance_name>
+        <name>sys_ux_page_property_31653d6717803010c77167787a7edaec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_notification_uiRoute</name><page display_value="">7d653d67c08030107fad2f4dbfde4eeb</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-17 05:03:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>31653d6717803010c77167787a7edaec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_notification_uiRoute</sys_name><sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package><sys_policy/><sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope><sys_update_name>sys_ux_page_property_31653d6717803010c77167787a7edaec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-17 05:03:36</sys_updated_on><type>string</type><unique_name>x_638084_tempera_0.7d653d67c08030107fad2f4dbfde4eeb.root.chrome_notification_uiRoute</unique_name><value>cb1af195872023002941b53046cb0b4e</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1977336664</payload_hash>
+        <record_name>chrome_notification_uiRoute</record_name>
+        <reverted_from/>
+        <source>2d72a691070030108405ff808c1ed0e3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-05-10 08:34:08</sys_created_on>
+        <sys_id>b256bda7078030108405ff808c1ed07b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>179556980000000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>7256bda705803010966cfce86f80ae7b</update_guid>
+        <update_guid_history>7256bda705803010966cfce86f80ae7b:1977336664</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 05:07:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>50376dd836564617863d804918092a89</sys_id>
+        <sys_metadata>31653d6717803010c77167787a7edaec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_notification_uiRoute</sys_name>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_scope_delete display_value="">12665d7159584107a564e372013c7c59</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_31653d6717803010c77167787a7edaec</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_31653d6717803010c77167787a7edaec">b256bda7078030108405ff808c1ed07b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-17 05:07:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

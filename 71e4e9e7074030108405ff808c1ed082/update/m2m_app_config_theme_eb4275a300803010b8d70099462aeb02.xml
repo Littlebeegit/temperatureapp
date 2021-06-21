@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">e74235a34580301078a55dddc6bd69f1</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-05-17 04:50:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb4275a300803010b8d70099462aeb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_update_name>m2m_app_config_theme_eb4275a300803010b8d70099462aeb02</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-05-17 04:50:05</sys_updated_on>
+        <theme display_value="Light Theme">2f4235a3e4803010fea955d5af5111f0</theme>
+        <ux_app_configuration display_value="Temperature App Portal Config">134235a3078030108405ff808c1ed0a3</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

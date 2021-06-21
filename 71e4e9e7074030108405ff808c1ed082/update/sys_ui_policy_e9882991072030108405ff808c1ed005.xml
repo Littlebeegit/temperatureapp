@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_638084_tempera_0_temperature_details">state=requested^ORstate=approved^ORstate=rejected^ORstate=closed^ORstate=requesting^ORstate=canceled^EQ<item display_value="異常温度承認待ち" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item display_value="異常温度承認済み" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="approved"/>
+            <item display_value="異常温度承認されない" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="rejected"/>
+            <item display_value="正常温度なのでクローズ" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="closed"/>
+            <item display_value="承認中（承認者２）" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="requesting"/>
+            <item display_value="取り消す" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="canceled"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Disable edit</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 00:54:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9882991072030108405ff808c1ed005</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Disable edit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_update_name>sys_ui_policy_e9882991072030108405ff808c1ed005</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 08:19:35</sys_updated_on>
+        <table>x_638084_tempera_0_temperature_details</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

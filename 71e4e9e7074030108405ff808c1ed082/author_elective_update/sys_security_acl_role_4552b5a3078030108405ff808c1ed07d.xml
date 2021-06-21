@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-05-17 04:50:10</sys_created_on>
+        <sys_id>4552b5a3078030108405ff808c1ed07d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9f4235a3078030108405ff808c1ed0a2.x_638084_tempera_0.Temperature Default</sys_name>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_security_acl display_value="9f4235a3078030108405ff808c1ed0a2">2b4275a3d3803010e29f87dd28dd7500</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4552b5a3078030108405ff808c1ed07d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-05-17 04:50:10</sys_updated_on>
+        <sys_user_role display_value="x_638084_tempera_0.Temperature Default" name="x_638084_tempera_0.Temperature Default">a3d03923078030108405ff808c1ed0df</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</application>
+        <file_path/>
+        <instance_id>35e9d45ddb17c49452dd2f17d4961944</instance_id>
+        <instance_name>dev101794</instance_name>
+        <name>sys_security_acl_role_4552b5a3078030108405ff808c1ed07d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2021-05-17 04:50:10</sys_created_on><sys_id>4552b5a3078030108405ff808c1ed07d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>9f4235a3078030108405ff808c1ed0a2.x_638084_tempera_0.Temperature Default</sys_name><sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package><sys_policy/><sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope><sys_security_acl display_value="9f4235a3078030108405ff808c1ed0a2">2b4275a3d3803010e29f87dd28dd7500</sys_security_acl><sys_update_name>sys_security_acl_role_4552b5a3078030108405ff808c1ed07d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-05-17 04:50:10</sys_updated_on><sys_user_role display_value="x_638084_tempera_0.Temperature Default" name="x_638084_tempera_0.Temperature Default">a3d03923078030108405ff808c1ed0df</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>811747870</payload_hash>
+        <record_name>9f4235a3078030108405ff808c1ed0a2.x_638084_tempera_0.Temperature Default</record_name>
+        <reverted_from/>
+        <source>c6e4e9e7074030108405ff808c1ed084</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-05-17 04:50:10</sys_created_on>
+        <sys_id>8d52b5a3078030108405ff808c1ed07f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17978a8fa6e0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-05-17 04:50:10</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c552b5a348803010be7f1d370848e87f</update_guid>
+        <update_guid_history>c552b5a348803010be7f1d370848e87f:811747870</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="9f4235a3078030108405ff808c1ed0a2.x_638084_tempera_0.Temperature Default">0afb3d2f078030108405ff808c1ed0bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 05:32:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>45b976e3d502475cbc5d23a754876f90</sys_id>
+        <sys_metadata>4552b5a3078030108405ff808c1ed07d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9f4235a3078030108405ff808c1ed0a2.x_638084_tempera_0.Temperature Default</sys_name>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_parent display_value="9f4235a3078030108405ff808c1ed0a2">2b4275a3d3803010e29f87dd28dd7500</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_scope_delete display_value="">12665d7159584107a564e372013c7c59</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4552b5a3078030108405ff808c1ed07d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4552b5a3078030108405ff808c1ed07d">8d52b5a3078030108405ff808c1ed07f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-17 05:32:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 04:49:32</sys_created_on>
+        <sys_id>3f22b1a3078030108405ff808c1ed0d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.638084.temperature-app-workspace.*.x_638084_tempera_0.Temperature Manager</sys_name>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_security_acl display_value="x.638084.temperature-app-workspace.*">4722b1a3e2803010e3ff132e2c942118</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3f22b1a3078030108405ff808c1ed0d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-17 04:49:32</sys_updated_on>
+        <sys_user_role display_value="x_638084_tempera_0.Temperature Manager" name="x_638084_tempera_0.Temperature Manager">f4f07923078030108405ff808c1ed0c8</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

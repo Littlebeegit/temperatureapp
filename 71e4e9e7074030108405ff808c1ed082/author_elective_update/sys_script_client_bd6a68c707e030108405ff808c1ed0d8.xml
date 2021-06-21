@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Practice Debugging</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var x = 7;
+	jslog("The value of x = " + x);
+	jslog("The NeedIt State value = " + g_form.getValue('state'));
+	jslog("The currently logged in user is " + g_user.getFullName() + ".");
+// 		g_form.setValue("name", g_form.getValue("name") + "Updated field value");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 07:19:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd6a68c707e030108405ff808c1ed0d8</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>NeedIt Practice Debugging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_update_name>sys_script_client_bd6a68c707e030108405ff808c1ed0d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 08:04:18</sys_updated_on>
+        <table>x_638084_tempera_0_temperature_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</application>
+        <file_path/>
+        <instance_id>35e9d45ddb17c49452dd2f17d4961944</instance_id>
+        <instance_name>dev101794</instance_name>
+        <name>sys_script_client_bd6a68c707e030108405ff808c1ed0d8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;name&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt Practice Debugging&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var x = 7;
+	jslog("The value of x = " + x);
+	jslog("The NeedIt State value = " + g_form.getValue('state'));
+	jslog("The currently logged in user is " + g_user.getFullName() + ".");
+// 		g_form.setValue("name", g_form.getValue("name") + "Updated field value");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-09 07:19:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bd6a68c707e030108405ff808c1ed0d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt Practice Debugging&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Temperature App" source="x_638084_tempera_0"&gt;71e4e9e7074030108405ff808c1ed082&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Temperature App"&gt;71e4e9e7074030108405ff808c1ed082&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bd6a68c707e030108405ff808c1ed0d8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-09 08:04:18&lt;/sys_updated_on&gt;&lt;table&gt;x_638084_tempera_0_temperature_details&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1298338814</payload_hash>
+        <record_name>NeedIt Practice Debugging</record_name>
+        <reverted_from/>
+        <source>c6e4e9e7074030108405ff808c1ed084</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 08:04:18</sys_created_on>
+        <sys_id>c15b7447072430108405ff808c1ed003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179efccfa4f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 08:04:18</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4d5b7447352430107bc14e81c2903102</update_guid>
+        <update_guid_history>4d5b7447352430107bc14e81c2903102:1298338814,661b744784243010ce9b41b100235d57:-614081775,7eeab847012430105949e56c4f6e7e14:1348904863,56aab8070b24301070875f4d11fefb03:-442471793,78663883c5243010f3feb03b541c9fac:-1314449603,e1163c43bb243010fac5f317a6d05de6:-1627164177,29a5fc4302243010e462f66c241548e3:-1398690797,ed653c4373243010345b162a64d6c8de:-32345741,bc35b043e8243010d79453bda628ec66:314447670,5c44700309243010240deef042d93156:-1006457576,f731384f7ee03010af8de6d261a50490:17279161,eff07c0f19e0301031915819187e752d:409765909</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 01:38:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>26c620c268f64a1aa844cd3ccd3e5829</sys_id>
+        <sys_metadata>bd6a68c707e030108405ff808c1ed0d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Practice Debugging</sys_name>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_parent display_value="Temperature Details">b50e25af074030108405ff808c1ed026</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_scope_delete display_value="">12665d7159584107a564e372013c7c59</sys_scope_delete>
+        <sys_update_name>sys_script_client_bd6a68c707e030108405ff808c1ed0d8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_bd6a68c707e030108405ff808c1ed0d8">c15b7447072430108405ff808c1ed003</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 01:38:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
