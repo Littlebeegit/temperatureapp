@@ -31,21 +31,30 @@
 
     // Add your code here
 
+    // 入力チェックを行う。
     var checkflg = false;
     var cardid = current.getValue('card_id');
     if (cardid == null) {
         gs.addErrorMessage('カード番号を入力してください。');
         checkflg = true;
     }
-    var name = current.getValue('name');
-    if (name == null) {
-        gs.addErrorMessage('名前を入力してください。');
+    var date = current.getValue('report_date');
+    if (date == null) {
+        gs.addErrorMessage('レポート日付を入力してください。');
         checkflg = true;
     }
     var temperature = current.getValue('temperature');
     if (temperature == null) {
         gs.addErrorMessage('体温を入力してください。');
         checkflg = true;
+    }
+    var abnormalCheckBox = current.getValue('abnormal_checkbox');
+    var abnormalContent = current.getValue('abnormal_content');
+    if (abnormalCheckBox == true) {
+        if (abnormalContent == null) {
+            gs.addErrorMessage('異常具体状況を入力してください。');
+            checkflg = true;
+        }
     }
 
     if (checkflg) {
@@ -59,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2477d45907b030108405ff808c1ed0c1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>check input business rule</sys_name>
         <sys_overrides/>
         <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
@@ -67,7 +76,7 @@
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name>sys_script_2477d45907b030108405ff808c1ed0c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-16 05:22:23</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:18:51</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

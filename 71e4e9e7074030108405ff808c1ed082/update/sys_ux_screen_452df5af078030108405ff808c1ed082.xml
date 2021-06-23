@@ -4,6 +4,34 @@
         <app_config display_value="Temperature App Portal Config">134235a3078030108405ff808c1ed0a3</app_config>
         <description/>
         <event_mappings>[ {
+  "eventMappingId" : "ckqhhqggaaaaqaaaaggfddbhhyjjtccyeccea",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_638084_tempera_0.PORTAL_APP_SHELL_DATA_SOURCE_REFRESH_RELAY_c12d71af078030108405ff808c1ed0bc",
+  "sourceEventDefinition" : {
+    "apiName" : "x_638084_tempera_0.PORTAL_APP_SHELL_DATA_SOURCE_REFRESH_RELAY_c12d71af078030108405ff808c1ed0bc",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "eaa5861c530210105a20ddeeff7b12fd",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "portal_app_shell_data_source",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckqhhqggaaaapaaaaggeddbhhynghhteeaabbgg",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
   "eventMappingId" : "ckoshhffjjilaaaagnddbhhyxiiwqiksr",
   "isConfiguration" : false,
   "offRowStorageId" : null,
@@ -101,14 +129,14 @@
         <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
         <required_translations>[]</required_translations>
         <screen_condition/>
-        <screen_type display_value="Report Detail">492d71af078030108405ff808c1ed0b6</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:37:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>452df5af078030108405ff808c1ed082</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Report Detail default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
@@ -116,7 +144,7 @@
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name>sys_ux_screen_452df5af078030108405ff808c1ed082</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:58:35</sys_updated_on>
+        <sys_updated_on>2021-06-22 07:27:18</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=452df5af078030108405ff808c1ed082"/>
 </record_update>

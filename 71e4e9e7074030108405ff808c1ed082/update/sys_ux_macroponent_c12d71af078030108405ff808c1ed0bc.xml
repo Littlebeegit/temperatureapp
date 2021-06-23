@@ -99,8 +99,8 @@
       "isNonDestructive" : false,
       "styles" : { }
     }, {
-      "elementId" : "button_1",
-      "elementLabel" : "Button 1",
+      "elementId" : "button_update",
+      "elementLabel" : "Update Button",
       "propertyValues" : {
         "variant" : {
           "type" : "JSON_LITERAL",
@@ -186,6 +186,21 @@
           "operation" : null,
           "targetId" : "ckoshheeuiwaaaaglddbhhyurnccabccee",
           "type" : "EVENT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_638084_tempera_0.PORTAL_APP_SHELL_DATA_SOURCE_REFRESH_RELAY_c12d71af078030108405ff808c1ed0bc",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "sysId" : "118f6b47073430108405ff808c1ed015"
+          },
+          "operation" : null,
+          "targetId" : "ckqhhqffggqraaaaggdddbhhyccjiuyybbm",
+          "type" : "EVENT"
         } ]
       } ],
       "slot" : "Row 2",
@@ -203,8 +218,8 @@
         "padding-left" : "20px"
       }
     }, {
-      "elementId" : "button_2",
-      "elementLabel" : "Button 2",
+      "elementId" : "button_cancel",
+      "elementLabel" : "Cancel Button",
       "propertyValues" : {
         "variant" : {
           "type" : "JSON_LITERAL",
@@ -380,7 +395,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>3ef14ae307c030108405ff808c1ed05e</dispatched_events>
+        <dispatched_events>118f6b47073430108405ff808c1ed015,3ef14ae307c030108405ff808c1ed05e</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -421,13 +436,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:37:24</sys_created_on>
         <sys_id>c12d71af078030108405ff808c1ed0bc</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Report Detail</sys_name>
         <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
         <sys_policy/>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name>sys_ux_macroponent_c12d71af078030108405ff808c1ed0bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 06:38:27</sys_updated_on>
+        <sys_updated_on>2021-06-22 07:27:18</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -11,13 +11,13 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>TemperatureApproveFLow</description>
         <internal_name>temperatureapproveflow</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{}},{"name":"ae40f2db-1a84-4857-a2b6-4614f3b8859a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.user.manager","label":"Trigger➛Temperature Details Record➛ユーザ➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
-        <latest_snapshot>59ceb52307c030108405ff808c1ed064</latest_snapshot>
+        <label_cache>[{"name":"1671d395-6a64-4fe9-b9f2-dbcf23de6426.table_name","label":"1➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1671d395-6a64-4fe9-b9f2-dbcf23de6426.record","label":"1➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79e2dfdb-09f9-4ca9-af72-201531970867.table_name","label":"2➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79e2dfdb-09f9-4ca9-af72-201531970867.record","label":"2➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.age","label":"Trigger➛Temperature Details Record➛年齢","reference":"","reference_display":"年齢","type":"integer","base_type":"integer","parent_table_name":"x_638084_tempera_0_temperature_details","column_name":"age"},{"name":"Created_1.current.temperature","label":"Trigger➛Temperature Details Record➛体温","reference":"","reference_display":"体温","type":"string","base_type":"string","parent_table_name":"x_638084_tempera_0_temperature_details","column_name":"temperature"},{"name":"449dbf9a-9b30-4fb5-93e6-7c336e23fde1.table_name","label":"7➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"449dbf9a-9b30-4fb5-93e6-7c336e23fde1.record","label":"7➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5835cf92-6f97-450e-b807-663334dfe218.table_name","label":"6➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5835cf92-6f97-450e-b807-663334dfe218.record","label":"6➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b12b89b-3baf-4f46-a214-ddedbccc89a4.table_name","label":"1➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b12b89b-3baf-4f46-a214-ddedbccc89a4.record","label":"1➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.user.manager","label":"Trigger➛Temperature Details Record➛ユーザ➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"ae40f2db-1a84-4857-a2b6-4614f3b8859a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{}},{"name":"a3fe3d01-95d7-4e2c-be40-2ee24162eef8.record","label":"3➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3fe3d01-95d7-4e2c-be40-2ee24162eef8.table_name","label":"3➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>813cc41307b430108405ff808c1ed0d4</latest_snapshot>
         <master_snapshot>e1a971ab078030108405ff808c1ed0e3</master_snapshot>
         <name>TemperatureApproveFLow</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>054bbdeb078030108405ff808c1ed0a7</remote_trigger_id>
+        <remote_trigger_id>f3ebc01307b430108405ff808c1ed030</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9eb3bde3078030108405ff808c1ed012</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>TemperatureApproveFLow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
         <sys_policy/>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name>sys_hub_flow_9eb3bde3078030108405ff808c1ed012</sys_update_name>
-        <sys_updated_by>0700</sys_updated_by>
-        <sys_updated_on>2021-06-04 06:51:11</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 09:31:26</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=9eb3bde3078030108405ff808c1ed012"/>
@@ -58,42 +58,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-17 05:29:12</sys_created_on>
+        <sys_created_on>2021-06-22 09:31:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>054bbdeb078030108405ff808c1ed0a7</sys_id>
+        <sys_id>f3ebc01307b430108405ff808c1ed030</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:12</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:24</sys_updated_on>
         <table>x_638084_tempera_0_temperature_details</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"8d4bbdeb078030108405ff808c1ed0a7","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"37ebc01307b430108405ff808c1ed03d","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>9eb3bde3078030108405ff808c1ed012</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-17 05:29:12</sys_created_on>
-        <sys_id>8d4bbdeb078030108405ff808c1ed0a7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>0700</sys_updated_by>
-        <sys_updated_on>2021-06-04 06:51:13</sys_updated_on>
-        <trigger display_value="">054bbdeb078030108405ff808c1ed0a7</trigger>
+        <sys_created_on>2021-06-22 09:31:24</sys_created_on>
+        <sys_id>37ebc01307b430108405ff808c1ed03d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 09:31:24</sys_updated_on>
+        <trigger display_value="">f3ebc01307b430108405ff808c1ed030</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>8d4bbdeb078030108405ff808c1ed0a7</document_id>
+        <document_id>37ebc01307b430108405ff808c1ed03d</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-17 05:29:12</sys_created_on>
-        <sys_id>054bbdeb078030108405ff808c1ed0a8</sys_id>
+        <sys_created_on>2021-06-22 09:31:24</sys_created_on>
+        <sys_id>bbebc01307b430108405ff808c1ed03d</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9eb3bde3078030108405ff808c1ed012^sys_idNOT IN8d4bbdeb078030108405ff808c1ed0a7"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9eb3bde3078030108405ff808c1ed012^sys_idNOT IN37ebc01307b430108405ff808c1ed03d"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=9eb3bde3078030108405ff808c1ed012^sys_idNOT IN4e64f927078030108405ff808c1ed0c8"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -104,10 +104,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 04:59:15</sys_created_on>
         <sys_id>4e64f927078030108405ff808c1ed0c8</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:13</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:25</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -122,11 +122,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 04:59:15</sys_created_on>
         <sys_id>0264f927078030108405ff808c1ed0ca</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:01:59</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:30:46</sys_updated_on>
         <value>temperature&gt;=37</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>4e64f927078030108405ff808c1ed0c8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>0700</sys_created_by>
+        <sys_created_on>2021-06-21 08:35:59</sys_created_on>
+        <sys_id>12a53eb207b430108405ff808c1ed0ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>0700</sys_updated_by>
+        <sys_updated_on>2021-06-21 08:35:59</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">3f1b9e4e0f103300b599bca2ff767e21</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -217,14 +231,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 04:59:15</sys_created_on>
         <sys_id>8264f927078030108405ff808c1ed064</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:13</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -298,14 +312,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 04:59:15</sys_created_on>
         <sys_id>ce64f927078030108405ff808c1ed06a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:13</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -333,10 +347,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:12:14</sys_created_on>
         <sys_id>2067fde7078030108405ff808c1ed058</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:44:32</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:32:35</sys_updated_on>
         <ui_id>606a3f08-9803-4670-b56f-41ebc343524f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2067fde7078030108405ff808c1ed058"/>
@@ -420,10 +434,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:12:15</sys_created_on>
         <sys_id>2867fde7078030108405ff808c1ed060</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:44:32</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:32:35</sys_updated_on>
         <ui_id>ae40f2db-1a84-4857-a2b6-4614f3b8859a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2867fde7078030108405ff808c1ed060"/>
@@ -571,10 +585,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:00</sys_created_on>
         <sys_id>a79931ab078030108405ff808c1ed0a0</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:44:32</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:32:35</sys_updated_on>
         <ui_id>a89912f6-fd13-48a2-976b-16a617243be8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a79931ab078030108405ff808c1ed0a0"/>
@@ -666,10 +680,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:00</sys_created_on>
         <sys_id>1f9931ab078030108405ff808c1ed098</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:13</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:25</sys_updated_on>
         <ui_id>e1492c6f-4168-4aa1-8f27-7b6305fec9da</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -766,18 +780,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d6a9b1ab078030108405ff808c1ed066","name":"plan"}}</plan>
         <plan_id>9eb3bde3078030108405ff808c1ed012</plan_id>
-        <snapshot>59ceb52307c030108405ff808c1ed064</snapshot>
+        <snapshot>813cc41307b430108405ff808c1ed0d4</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d6a9b1ab078030108405ff808c1ed066</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:12</sys_updated_on>
-        <trigger display_value="">054bbdeb078030108405ff808c1ed0a7</trigger>
+        <sys_updated_on>2021-06-22 09:31:24</sys_updated_on>
+        <trigger display_value="">f3ebc01307b430108405ff808c1ed030</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -790,7 +804,7 @@
         <copied_from_name/>
         <description>TemperatureApproveFLow</description>
         <internal_name>temperatureapproveflow</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{}},{"name":"ae40f2db-1a84-4857-a2b6-4614f3b8859a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.user.manager","label":"Trigger➛Temperature Details Record➛ユーザ➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
+        <label_cache>[{"name":"1671d395-6a64-4fe9-b9f2-dbcf23de6426.table_name","label":"1➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1671d395-6a64-4fe9-b9f2-dbcf23de6426.record","label":"1➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79e2dfdb-09f9-4ca9-af72-201531970867.table_name","label":"2➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79e2dfdb-09f9-4ca9-af72-201531970867.record","label":"2➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.age","label":"Trigger➛Temperature Details Record➛年齢","reference":"","reference_display":"年齢","type":"integer","base_type":"integer","parent_table_name":"x_638084_tempera_0_temperature_details","column_name":"age"},{"name":"Created_1.current.temperature","label":"Trigger➛Temperature Details Record➛体温","reference":"","reference_display":"体温","type":"string","base_type":"string","parent_table_name":"x_638084_tempera_0_temperature_details","column_name":"temperature"},{"name":"449dbf9a-9b30-4fb5-93e6-7c336e23fde1.table_name","label":"7➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"449dbf9a-9b30-4fb5-93e6-7c336e23fde1.record","label":"7➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5835cf92-6f97-450e-b807-663334dfe218.table_name","label":"6➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5835cf92-6f97-450e-b807-663334dfe218.record","label":"6➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b12b89b-3baf-4f46-a214-ddedbccc89a4.table_name","label":"1➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b12b89b-3baf-4f46-a214-ddedbccc89a4.record","label":"1➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.user.manager","label":"Trigger➛Temperature Details Record➛ユーザ➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"ae40f2db-1a84-4857-a2b6-4614f3b8859a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{}},{"name":"a3fe3d01-95d7-4e2c-be40-2ee24162eef8.record","label":"3➛Temperature Details Record","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3fe3d01-95d7-4e2c-be40-2ee24162eef8.table_name","label":"3➛Temperature Details Table","reference":"x_638084_tempera_0_temperature_details","reference_display":"Temperature Details","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>TemperatureApproveFLow</name>
         <natlang/>
@@ -807,7 +821,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e1a971ab078030108405ff808c1ed0e3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -815,7 +829,7 @@
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:11</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:22</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=e1a971ab078030108405ff808c1ed0e3"/>
@@ -830,10 +844,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:10</sys_created_on>
         <sys_id>79a9b1ab078030108405ff808c1ed02e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:13</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:24</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -860,11 +874,25 @@
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-17 05:22:10</sys_created_on>
-        <sys_id>71a9b1ab078030108405ff808c1ed030</sys_id>
+        <sys_created_on>2021-06-21 09:08:28</sys_created_on>
+        <sys_id>4e1d7e7a07b430108405ff808c1ed044</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:22:10</sys_updated_on>
+        <sys_updated_on>2021-06-21 09:08:28</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">3f1b9e4e0f103300b599bca2ff767e21</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>79a9b1ab078030108405ff808c1ed02e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 05:22:10</sys_created_on>
+        <sys_id>71a9b1ab078030108405ff808c1ed030</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 09:31:21</sys_updated_on>
         <value>temperature&gt;=37</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
@@ -943,14 +971,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:09</sys_created_on>
         <sys_id>6da971ab078030108405ff808c1ed0e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:10</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1024,14 +1052,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:09</sys_created_on>
         <sys_id>e9a9b1ab078030108405ff808c1ed007</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:10</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1059,10 +1087,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:10</sys_created_on>
         <sys_id>79a9b1ab078030108405ff808c1ed02c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:11</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:22</sys_updated_on>
         <ui_id>a89912f6-fd13-48a2-976b-16a617243be8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=79a9b1ab078030108405ff808c1ed02c"/>
@@ -1146,10 +1174,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:10</sys_created_on>
         <sys_id>b1a9b1ab078030108405ff808c1ed026</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:11</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:22</sys_updated_on>
         <ui_id>ae40f2db-1a84-4857-a2b6-4614f3b8859a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b1a9b1ab078030108405ff808c1ed026"/>
@@ -1297,10 +1325,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:10</sys_created_on>
         <sys_id>f5a9b1ab078030108405ff808c1ed01d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:11</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:22</sys_updated_on>
         <ui_id>606a3f08-9803-4670-b56f-41ebc343524f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5a9b1ab078030108405ff808c1ed01d"/>
@@ -1392,10 +1420,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:22:09</sys_created_on>
         <sys_id>fda9b1ab078030108405ff808c1ed014</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-17 05:29:11</sys_updated_on>
+        <sys_updated_on>2021-06-22 09:31:22</sys_updated_on>
         <ui_id>e1492c6f-4168-4aa1-8f27-7b6305fec9da</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

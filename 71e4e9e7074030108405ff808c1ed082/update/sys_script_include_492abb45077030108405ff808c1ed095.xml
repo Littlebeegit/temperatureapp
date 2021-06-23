@@ -14,7 +14,7 @@ GetUserScriptInclude.prototype = Object.extendsObject(global.AbstractAjaxProcess
         userinfo.addQuery('user_name', this.getParameter('sysparm_userid'));
         userinfo.query();
         if (userinfo.next()) {
-			return userinfo.getValue('name');
+            return userinfo.getValue('sys_id');
         }
     },
     type: 'GetUserScriptInclude'
@@ -23,13 +23,13 @@ GetUserScriptInclude.prototype = Object.extendsObject(global.AbstractAjaxProcess
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-16 03:14:17</sys_created_on>
         <sys_id>492abb45077030108405ff808c1ed095</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>GetUserScriptInclude</sys_name>
         <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name>sys_script_include_492abb45077030108405ff808c1ed095</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-16 03:14:17</sys_updated_on>
+        <sys_updated_on>2021-06-21 03:36:32</sys_updated_on>
     </sys_script_include>
 </record_update>

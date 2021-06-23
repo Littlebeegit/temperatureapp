@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_638084_tempera_0_temperature_details">input_cardid_checkbox=false^EQ<item endquery="false" field="input_cardid_checkbox" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>50</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+    g_form.setReadOnly('card_id', false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    g_form.setReadOnly('card_id', true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Set cardid by input checkbox</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 05:22:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6429caf207f030108405ff808c1ed0fc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Set cardid by input checkbox</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_update_name>sys_ui_policy_6429caf207f030108405ff808c1ed0fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 05:51:11</sys_updated_on>
+        <table>x_638084_tempera_0_temperature_details</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</application>
+        <file_path/>
+        <instance_id>35e9d45ddb17c49452dd2f17d4961944</instance_id>
+        <instance_name>dev101794</instance_name>
+        <name>sys_ui_policy_6429caf207f030108405ff808c1ed0fc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_638084_tempera_0_temperature_details"&gt;input_cardid_checkbox=false^EQ&lt;item endquery="false" field="input_cardid_checkbox" goto="false" newquery="false" operator="=" or="false" value="false"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;50&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+    g_form.setReadOnly('card_id', false);
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+    g_form.setReadOnly('card_id', true);
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Set cardid by input checkbox&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-21 05:22:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6429caf207f030108405ff808c1ed0fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set cardid by input checkbox&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Temperature App" source="x_638084_tempera_0"&gt;71e4e9e7074030108405ff808c1ed082&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Temperature App"&gt;71e4e9e7074030108405ff808c1ed082&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_6429caf207f030108405ff808c1ed0fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-21 05:51:11&lt;/sys_updated_on&gt;&lt;table&gt;x_638084_tempera_0_temperature_details&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>638806932</payload_hash>
+        <record_name>Set cardid by input checkbox</record_name>
+        <reverted_from/>
+        <source>bd7751be073030108405ff808c1ed087</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 05:51:11</sys_created_on>
+        <sys_id>ccffc2be07f030108405ff808c1ed0e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a2d1f694d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 05:51:11</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>08ffc2beaef03010854248211b2dd5e5</update_guid>
+        <update_guid_history>08ffc2beaef03010854248211b2dd5e5:638806932,a1de8a3ee0f03010b7183f4fd0f8afb0:753760130,128ec63e67f03010c6b4512e24f4aeed:1924140274,826ecafa4cf0301009ddab7d3c10c34a:2076223581,cb1e4afa6cf030100aebd9e9f10a2bcc:957896797,abab82ba85f030106c14f86be879a469:1027432710,7fb9cab62bf030105f1a826228fc0d58:-497604834,c9598af26bf0301095edd76c93c57a88:326557988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 05:53:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>5a77e399877143979bfb6f60ce327301</sys_id>
+        <sys_metadata>6429caf207f030108405ff808c1ed0fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set cardid by input checkbox</sys_name>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_parent display_value="Temperature Details">b50e25af074030108405ff808c1ed026</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_scope_delete display_value="">12665d7159584107a564e372013c7c59</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_6429caf207f030108405ff808c1ed0fc</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_6429caf207f030108405ff808c1ed0fc">ccffc2be07f030108405ff808c1ed0e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 05:53:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
