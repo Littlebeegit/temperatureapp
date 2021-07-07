@@ -36,7 +36,8 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p><strong>Dear Assignee,</strong><br /></p>
-<p><strong>An event is created:</strong></p>
+<p><strong>一つインシデント事件が提出された:</strong></p>
+<p>依頼者: ${caller_id}<br /></p>
 <p>番号: ${number}<br /></p>
 <p>簡単な説明: ${short_description}<br /></p>
 <p><strong>Please assign event as soon as possible.</strong></p>
@@ -48,13 +49,13 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="Q21006Group">26665e36073430108405ff808c1ed0b5</recipient_groups>
+        <recipient_groups name="Incident Management">12a586cd0bb23200ecfd818393673a30</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Incident Mail</subject>
+        <subject>インシデント新規提示</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -62,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0f4d8efa07f030108405ff808c1ed0aa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>incidentEmail</sys_name>
         <sys_overrides/>
         <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
@@ -70,7 +71,7 @@
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name>sysevent_email_action_0f4d8efa07f030108405ff808c1ed0aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-21 06:23:52</sys_updated_on>
+        <sys_updated_on>2021-06-24 07:54:13</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

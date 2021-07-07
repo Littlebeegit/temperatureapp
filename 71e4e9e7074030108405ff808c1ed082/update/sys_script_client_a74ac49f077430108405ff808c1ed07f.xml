@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -13,7 +13,6 @@
         <script><![CDATA[function onSubmit() {
     //Type appropriate comment here, and begin script below
     if (g_form.getValue('temperature') < 37) {
-        g_form.addInfoMessage('inininin');
         g_form.setValue('state', 'closed');
     } else {
         g_form.setValue('state', 'requested');
@@ -25,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a74ac49f077430108405ff808c1ed07f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Set state</sys_name>
         <sys_overrides/>
         <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
@@ -33,7 +32,7 @@
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name>sys_script_client_a74ac49f077430108405ff808c1ed07f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-22 15:01:04</sys_updated_on>
+        <sys_updated_on>2021-06-23 05:27:00</sys_updated_on>
         <table>x_638084_tempera_0_temperature_details</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>

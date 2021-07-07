@@ -40,13 +40,17 @@
     }
     var date = current.getValue('report_date');
     if (date == null) {
-        gs.addErrorMessage('レポート日付を入力してください。');
+        gs.addErrorMessage('日付を入力してください。');
         checkflg = true;
     }
     var temperature = current.getValue('temperature');
     if (temperature == null) {
         gs.addErrorMessage('体温を入力してください。');
         checkflg = true;
+    }
+    if (temperature < 34 || temperature > 45) {
+        gs.addErrorMessage('体温は34から45まで入力してください。');
+		checkflg = true;
     }
     var abnormalCheckBox = current.getValue('abnormal_checkbox');
     var abnormalContent = current.getValue('abnormal_content');
@@ -68,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2477d45907b030108405ff808c1ed0c1</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>check input business rule</sys_name>
         <sys_overrides/>
         <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
@@ -76,7 +80,7 @@
         <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
         <sys_update_name>sys_script_2477d45907b030108405ff808c1ed0c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-22 09:18:51</sys_updated_on>
+        <sys_updated_on>2021-07-02 05:47:34</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

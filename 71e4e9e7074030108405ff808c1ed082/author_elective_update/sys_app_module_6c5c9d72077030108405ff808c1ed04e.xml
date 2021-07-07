@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Temperature App">470b5d32077030108405ff808c1ed084</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Abnormal Lists</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_638084_tempera_0_abnormal_list</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_638084_tempera_0.Temperature Manager</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 02:05:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c5c9d72077030108405ff808c1ed04e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Abnormal Lists</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_update_name>sys_app_module_6c5c9d72077030108405ff808c1ed04e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 02:05:39</sys_updated_on>
+        <timeline_page/>
+        <title>Abnormal Lists</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</application>
+        <file_path/>
+        <instance_id>886bbf9adb57e010ad8dd7c8f496197e</instance_id>
+        <instance_name>dev110591</instance_name>
+        <name>sys_app_module_6c5c9d72077030108405ff808c1ed04e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Temperature App">470b5d32077030108405ff808c1ed084</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Abnormal Lists</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_638084_tempera_0_abnormal_list</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_638084_tempera_0.Temperature Manager</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 02:05:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c5c9d72077030108405ff808c1ed04e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Abnormal Lists</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_update_name>sys_app_module_6c5c9d72077030108405ff808c1ed04e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 02:05:39</sys_updated_on>
+        <timeline_page/>
+        <title>Abnormal Lists</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-506153045</payload_hash>
+        <record_name>Abnormal Lists</record_name>
+        <reverted_from/>
+        <source>40487f5b1bbc3010dd782134604bcbba</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 02:43:59</sys_created_on>
+        <sys_id>a148339b1bbc3010dd782134604bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a36c0be020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 02:43:59</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6148339b49bc3010cd6a3aa1e0071757</update_guid>
+        <update_guid_history>6148339b49bc3010cd6a3aa1e0071757:-506153045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Abnormal Lists">69134dab1bb07010dd782134604bcbb8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 08:10:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>257f73f6cd1f454c973a49bfccfe5210</sys_id>
+        <sys_metadata>6c5c9d72077030108405ff808c1ed04e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Abnormal Lists</sys_name>
+        <sys_package display_value="Temperature App" source="x_638084_tempera_0">71e4e9e7074030108405ff808c1ed082</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Temperature App">71e4e9e7074030108405ff808c1ed082</sys_scope>
+        <sys_scope_delete display_value="">12665d7159584107a564e372013c7c59</sys_scope_delete>
+        <sys_update_name>sys_app_module_6c5c9d72077030108405ff808c1ed04e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_6c5c9d72077030108405ff808c1ed04e">a148339b1bbc3010dd782134604bcb57</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 08:10:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Temperature Details" max_length="40" name="x_638084_tempera_0_temperature_details" sizeclass="9" type="collection">
-        <element label="体異常あるか" max_length="40" name="abnormal_checkbox" type="boolean"/>
+    <element audit="true" label="Temperature Details" max_length="40" name="x_638084_tempera_0_temperature_details" sizeclass="19" type="collection">
+        <element label="体調異常あるか" max_length="40" name="abnormal_checkbox" type="boolean"/>
         <element choice="1" label="異常具体状況" max_length="32" name="abnormal_content" reference="x_638084_tempera_0_abnormal_list" type="reference">
             <choice/>
         </element>
         <element label="年齢" max_length="40" name="age" type="integer"/>
         <element label="Approval history" max_length="4000" name="approval_history" type="journal"/>
-        <element label="カード番号" max_length="8" name="card_id" type="string"/>
+        <element label="カード番号" mandatory="true" max_length="8" name="card_id" type="string"/>
         <element label="日付" max_length="40" name="report_date" type="glide_date"/>
         <element choice="3" default="0" label="差し戻し対象" max_length="40" name="return_to_user" type="choice">
             <choice>
@@ -14,7 +14,7 @@
                 <element inactive_on_update="false" label="承認者1" sequence="20" value="1"/>
             </choice>
         </element>
-        <element choice="3" default="not_yet_requested" label="承認状態" max_length="40" name="state" read_only="true" type="choice">
+        <element choice="3" default="closed" label="承認状態" max_length="40" name="state" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="未申請" sequence="10" value="not_yet_requested"/>
                 <element inactive_on_update="false" label="異常温度承認待ち" sequence="20" value="requested"/>
@@ -26,7 +26,7 @@
                 <element inactive_on_update="false" label="承認中（承認者２）" sequence="80" value="requesting"/>
             </choice>
         </element>
-        <element label="体温" max_length="8" name="temperature" type="string"/>
+        <element label="体温" mandatory="true" max_length="8" name="temperature" type="string"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="ユーザ" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="return_to_user"/>
@@ -34,9 +34,8 @@
         <index name="index2">
             <element name="abnormal_content"/>
         </index>
-        <index name="index2">
+        <index name="index3">
             <element name="user"/>
         </index>
-        <element label="名前" max_length="10" name="name" type="string"/>
     </element>
 </database>

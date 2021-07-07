@@ -42,7 +42,7 @@
         <update_guid_history>9552b5a37480301012bfd35d51cde3f9:-2001885929</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="974235a3078030108405ff808c1ed0a3.x_638084_tempera_0.Temperature Default">bdfb3d2f078030108405ff808c1ed052</sys_audit_delete>
+        <sys_audit_delete display_value="">bdfb3d2f078030108405ff808c1ed052</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:32:16</sys_created_on>

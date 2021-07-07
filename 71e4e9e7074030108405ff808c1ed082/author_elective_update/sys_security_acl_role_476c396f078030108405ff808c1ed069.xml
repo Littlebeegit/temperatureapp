@@ -42,7 +42,7 @@
         <update_guid_history>c36c396f1080301092487cdddc3da09d:991316797</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x.638084.temperature-app-portal.*.x_638084_tempera_0.Temperature Default">56feb92307c030108405ff808c1ed040</sys_audit_delete>
+        <sys_audit_delete display_value="">56feb92307c030108405ff808c1ed040</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 05:45:25</sys_created_on>
